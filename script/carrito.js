@@ -1,10 +1,6 @@
 let app = window.app || {},
 	business_paypal = ''; // aquí va tu correo electrónico de paypal
 
-
-
-	
-
 (function ($) {
 	'use strict';
 
@@ -29,14 +25,30 @@ let app = window.app || {},
 		$('.totalAmount').text('$ ' + total)
 
 	}
-//conectar json no funciona
-	// let productos = ('./datos.json');
-
+//CONECTAR A JSON NO FUNCIONA
+	// const productos = '../pages/datos.json';
+	
 	// fetch(productos)
 	// .then(res => res.json())
-	// .then(data = masVendidos(data))
+	// .then(data = wrapper(data))
 
-//conectar json no funciona
+	// const contenedorProd = document.querySelector('#cCard')
+
+	// function mostrarProductos(productos){
+	// 	// console.log('EN LA FUNCION');
+	// 	// console.log(productos);
+	
+	// 	productos.forEach( prod => {
+	// 		let card = document.createElement('div');
+	
+	// 		card.innerHTML =	`<h2>${prod.name}<p>
+	// 							<img src="${prod.img}"/>
+	// 							<button class="btn-comprar" id="${prod.id}">comprar<button>		
+	// 							`		
+	// 		contenedorProd.appendChild(card);
+	// 	})	
+	// }
+//CONECTAR A JSON NO FUNCIONA
 
 	app.masVendidos = function () {
 		let productos = [
@@ -226,7 +238,7 @@ let app = window.app || {},
 		let curProd = _.find(cart.items, { 'id': id })
 
 		if (undefined != curProd && curProd != null) {
-			//ya existe el producto, aÃ±adimos uno mÃ¡s a su cantidad
+			//ya existe el producto, añadimos uno ms a su cantidad
 			if (curProd.cant < available) {
 				curProd.cant = parseInt(curProd.cant + cant)
 			} else {
@@ -357,31 +369,3 @@ let app = window.app || {},
 	})
 
 })(jQuery)
-
-	//llamar fetch para traer los productos  + json
-	//recorrer el array
-	// push al array
-//no funciona
-
-// fetch('datos.json')
-// 	.then(response=> response.json())
-// 	.then(data=>{
-// 		wrapper = $('.productosWrapper'),
-// 			contenido = ''
-// 		for (let i = 0; i < productos.length; i++) {
-// 			if (productos[i].stock > 0) {
-// 				contenido += '<div class="coin-wrapper">'
-// 				contenido += '		<img src="' + productos[i].img + '" alt="' + productos[i].name + '">'
-// 				contenido += '		<span class="large-12 columns product-details">'
-// 				contenido += '			<h3>' + productos[i].name + ' <span class="price">$ ' + productos[i].price + ' </span></h3>'
-// 				contenido += '			<h3>Tenemos: <span class="stock">' + productos[i].stock + '</span></h3>'
-// 				contenido += '		</span>'
-// 				contenido += '		<a class="large-12 columns btn submit ladda-button prod-' + productos[i].id + '" data-style="slide-right" onclick="app.addtoCart(' + productos[i].id + ');">Añadir a la canasta</a>'
-// 				contenido += '		<div class="clearfix"></div>'
-// 				contenido += '</div>'
-// 			}
-// 		}
-// 		wrapper.html(contenido)
-// 		localStorage.setItem('productos', JSON.stringify(productos))	
-// 	});
-//no funciona
