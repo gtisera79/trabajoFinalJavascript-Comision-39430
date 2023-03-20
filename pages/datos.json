@@ -1,0 +1,74 @@
+[{
+        "id" : 1,
+				"img" : "https://www.air-intra.com/imgart/HPE064.jpg",
+				"name" : "Servidor HPE MicroServer Gen10 Negro",
+				"price" : 1299.00,
+				"desc" : "Servidor de nivel básico compacto asequible, pero potente que puedes personalizar de forma local o para las posibilidades que brinda la nube híbrida",
+				"stock" : 4
+  },
+{
+  "id" : 2,
+  "img" : "https://www.air-intra.com/imgart/29317.jpg",
+  "name" : "Notebook DELL 14 INSP 5840 I5-8265U 8G 256G M2 GFCE W10H",
+  "price" : 799.00,
+  "desc" : "Laptop de 14 pulgadas con portabilidad y estilo pulido. Con un borde angosto y una cubierta de aluminio con un diseño delgado.",
+  "stock" : 2
+},
+{
+  "id" : 3,
+  "img" : "https://www.air-intra.com/imgart/25129.jpg",
+  "name" : "Camara tp-link  IP 720P Cloud nc450 Dia y noche Blanca",
+  "price" : 199.00,
+  "desc" : "El NC450 es su compañero favorable que satisface las necesidades de vigilancia de su hogar y oficina, manteniéndolo en contacto con lo que más le importa.",
+  "stock" : 10
+},
+{
+  "id" : 4,
+  "img" : "https://www.air-intra.com/imgart/36559.jpg",
+  "name" : "Celular Xiaomi note 7 Azul",
+  "price" : 580.00,
+  "desc" : "l Redmi Note 7 la estrategia cambia radicalmente y se apuesta por un cuerpo de cristal en la parte trasera protegido por Gorilla Glass 5.",
+  "stock" : 4
+},
+{
+  "id" : 5,
+  "img" : "https://www.air-intra.com/imgart/51488.jpg",
+  "name" : "Smartwatch Xiaomi Mi Watch Negro",
+  "price" : 180.00,
+  "desc" : "Pantalla de alta resolución de 1,39 pulgadas y 326 ppp Soporta Always on Display Notificaciones whatsapp, llamadas, redes sociales, mails, etc Diseño ligero de 32 g.",
+  "stock" : 41
+},
+{
+  "id" : 6,
+  "img" : "https://www.air-intra.com/imgart/53891.jpg",
+  "name" : "Monitor 32 CX PF236K HDMI Frameless",
+  "price" : 680.00,
+  "desc" : "El nuevo monitor gamer CX PF236R tiene una pantalla curva FHD (1920 x 1080) de 32 pulgadas para jugadores profesionales y aquellos que buscan una experiencia de juego más inmersiva. Con un refresh rate de 144/165HZ no te perderás ningún detalle.",
+  "stock" : 24
+},
+{
+  "id" : 7,
+  "img" : "https://www.air-intra.com/imgart/210072.jpg",
+  "name" : "AURICULARES HAYLOU PURFREE BC01 CONDUCCION OSEA",
+  "price" : 80.00,
+  "desc" : "HAYLOU PurFree Auriculares de conducción ósea Auriculares Deportivos Bluetooth 5.2 de oído Abierto - Auriculares inalámbricos Impermeables IP67 para Entrenamientos y Correr - Gris Negro",
+  "stock" : 4
+},
+{
+  "id" : 8,
+  "img" : "https://www.air-intra.com/imgart/36570.jpg",
+  "name" : "Tablet 7 Amazon Fire 7 Azul",
+  "price" : 380.00,
+  "desc" : "Disfrutá de ver películas, series, programas de tv, leer libros y muchas cosas más con esta Tablet Amazon Fire 7.",
+  "stock" : 34
+},
+{
+  "id" : 9,
+  "img" : "https://www.air-intra.com/imgart/48456.jpg",
+  "name" : "Parlante JBL Flip 5 Bluetooth Rosa",
+  "price" : 280.00,
+  "desc" : "Disfruta de un sonido para llevar con el potente Flip 5 de JBL. Nuestro ligero altavoz Bluetooth va adonde quieras.",
+  "stock" : 24
+}
+
+  ]
