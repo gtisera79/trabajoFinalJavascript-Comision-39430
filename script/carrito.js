@@ -1,6 +1,10 @@
 let app = window.app || {},
 	business_paypal = ''; // aquí va tu correo electrónico de paypal
 
+
+
+	
+
 (function ($) {
 	'use strict';
 
@@ -25,34 +29,14 @@ let app = window.app || {},
 		$('.totalAmount').text('$ ' + total)
 
 	}
-	//llamar fetch para traer los productos  + json
-	//recorrer el array
-	// push al array
-//no funciona
+//conectar json no funciona
+	// let productos = ('./datos.json');
 
-// fetch('datos.json')
-// 	.then(response=> response.json())
-// 	.then(data=>{
-// 		wrapper = $('.productosWrapper'),
-// 			contenido = ''
-// 		for (let i = 0; i < productos.length; i++) {
-// 			if (productos[i].stock > 0) {
-// 				contenido += '<div class="coin-wrapper">'
-// 				contenido += '		<img src="' + productos[i].img + '" alt="' + productos[i].name + '">'
-// 				contenido += '		<span class="large-12 columns product-details">'
-// 				contenido += '			<h3>' + productos[i].name + ' <span class="price">$ ' + productos[i].price + ' </span></h3>'
-// 				contenido += '			<h3>Tenemos: <span class="stock">' + productos[i].stock + '</span></h3>'
-// 				contenido += '		</span>'
-// 				contenido += '		<a class="large-12 columns btn submit ladda-button prod-' + productos[i].id + '" data-style="slide-right" onclick="app.addtoCart(' + productos[i].id + ');">Añadir a la canasta</a>'
-// 				contenido += '		<div class="clearfix"></div>'
-// 				contenido += '</div>'
-// 			}
-// 		}
-// 		wrapper.html(contenido)
-// 		localStorage.setItem('productos', JSON.stringify(productos))
-	
-// 	});
-//no funciona
+	// fetch(productos)
+	// .then(res => res.json())
+	// .then(data = masVendidos(data))
+
+//conectar json no funciona
 
 	app.masVendidos = function () {
 		let productos = [
@@ -373,3 +357,31 @@ let app = window.app || {},
 	})
 
 })(jQuery)
+
+	//llamar fetch para traer los productos  + json
+	//recorrer el array
+	// push al array
+//no funciona
+
+// fetch('datos.json')
+// 	.then(response=> response.json())
+// 	.then(data=>{
+// 		wrapper = $('.productosWrapper'),
+// 			contenido = ''
+// 		for (let i = 0; i < productos.length; i++) {
+// 			if (productos[i].stock > 0) {
+// 				contenido += '<div class="coin-wrapper">'
+// 				contenido += '		<img src="' + productos[i].img + '" alt="' + productos[i].name + '">'
+// 				contenido += '		<span class="large-12 columns product-details">'
+// 				contenido += '			<h3>' + productos[i].name + ' <span class="price">$ ' + productos[i].price + ' </span></h3>'
+// 				contenido += '			<h3>Tenemos: <span class="stock">' + productos[i].stock + '</span></h3>'
+// 				contenido += '		</span>'
+// 				contenido += '		<a class="large-12 columns btn submit ladda-button prod-' + productos[i].id + '" data-style="slide-right" onclick="app.addtoCart(' + productos[i].id + ');">Añadir a la canasta</a>'
+// 				contenido += '		<div class="clearfix"></div>'
+// 				contenido += '</div>'
+// 			}
+// 		}
+// 		wrapper.html(contenido)
+// 		localStorage.setItem('productos', JSON.stringify(productos))	
+// 	});
+//no funciona
