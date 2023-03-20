@@ -1,7 +1,7 @@
 [{
         "id" : 1,
 				"img" : "https://www.air-intra.com/imgart/HPE064.jpg",
-				"name" : "Servidor HPE MicroServer Gen10 Negro",
+				"name" : "HPE MicroServer Gen10 Negro",
 				"price" : 1299.00,
 				"desc" : "Servidor de nivel básico compacto asequible, pero potente que puedes personalizar de forma local o para las posibilidades que brinda la nube híbrida",
 				"stock" : 4
@@ -9,7 +9,7 @@
 {
   "id" : 2,
   "img" : "https://www.air-intra.com/imgart/29317.jpg",
-  "name" : "Notebook DELL 14 INSP 5840 I5-8265U 8G 256G M2 GFCE W10H",
+  "name" : "Notebook DELL 14 INSP 5840",
   "price" : 799.00,
   "desc" : "Laptop de 14 pulgadas con portabilidad y estilo pulido. Con un borde angosto y una cubierta de aluminio con un diseño delgado.",
   "stock" : 2

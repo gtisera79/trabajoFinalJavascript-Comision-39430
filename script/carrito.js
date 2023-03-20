@@ -51,6 +51,7 @@ let app = window.app || {},
 //CONECTAR A JSON NO FUNCIONA
 
 	app.masVendidos = function () {
+		/*
 		let productos = [
 
 // array
@@ -131,6 +132,27 @@ let app = window.app || {},
 			wrapper = $('.productosWrapper'),
 			contenido = ''
 
+*/
+let wrapper = $('.productosWrapper');
+let contenido = '';
+
+$.getJSON('../pages/datos.json', function (json) {
+	let productos = [];
+	for (var key in json) {
+		if (json.hasOwnProperty(key)) {
+			var item = json[key];
+			productos.push({
+				id: item.id,
+				img: item.img,
+				name: item.name,
+				price: item.price,
+				desc: item.desc,
+				stock: item.stock
+			});            
+		}
+	}
+	console.log(productos)
+	
 		for (let i = 0; i < productos.length; i++) {
 
 			if (productos[i].stock > 0) {
@@ -148,10 +170,13 @@ let app = window.app || {},
 			}
 
 		}
+	
+	
 
 		wrapper.html(contenido)
 
 		localStorage.setItem('productos', JSON.stringify(productos))
+	});
 	}
 
 	// 
