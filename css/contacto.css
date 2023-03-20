@@ -283,7 +283,7 @@ footer{
     padding: 10px;
     grid-template-columns: 85% 15%;
     width: auto;
-    height: 100px;
+    height: auto;
     
     }
 .telefonoCorreoDireccion{
@@ -310,4 +310,5 @@ footer{
     margin-right: 10px;
     text-decoration: none;
     list-style: none;
+    color: white;
 }

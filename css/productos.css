@@ -475,28 +475,29 @@ footer{
   width: auto;
   height: 100px;
   }
-.telefonoCorreoDireccion{
-  color: white;
-  display: flex;
-  justify-content: center;
-  gap: 18px;
-  margin-right: 50px;
-  text-decoration: none;
-  list-style: none;   
-  font-size: 20px; 
+  .telefonoCorreoDireccion{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-right: 50px;
+    text-decoration: none;
+    list-style: none;   
+    font-size: 20px; 
 }
 .redesSociales{
-  color: white;
-  display: flex;
-  justify-content: right;
-  margin-right: 10px;
-  font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    font-size: 20px;
 }
 .iconosRedes{
-  display: flex;
-  justify-content: right;
-  gap: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
